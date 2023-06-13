@@ -1,0 +1,11 @@
+<launch>
+	<node pkg="project" type="Timer.py" name="timer" output="screen"/>
+	<node pkg="project" type="Image_Converter.py" name="image_converter" output="screen"/>
+	<node pkg="project" type="Circle_Finder.py" name="circle_finder" output="screen"/>
+	<node pkg="project" type="navigating_main_room.py" name="navigating_main_room" output="screen"/>
+	<node pkg="project" type="Rectangle_Identification.py" name="rectangle_identification" output="screen"/>
+	<node pkg="project" type="Character_Identification.py" name="character_identification" output="screen"/>
+	<node pkg="project" type="Character_Output.py" name="character_output" output="screen"/>
+	<node pkg="project" type="Listener.py" name="listener" output="screen"/>
+	<node pkg="project" type="navigating_green_room.py" name="green_room_navigator" output="screen"/>
+</launch>
